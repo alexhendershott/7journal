@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,18 +14,34 @@
             line-height: 1.6;
             color: #333;
         }
-        h1 { font-weight: 300; }
-        h2 { font-weight: 500; margin-top: 40px; }
-        p { margin: 16px 0; }
-        .updated { color: #666; font-size: 14px; }
+
+        h1 {
+            font-weight: 300;
+        }
+
+        h2 {
+            font-weight: 500;
+            margin-top: 40px;
+        }
+
+        p {
+            margin: 16px 0;
+        }
+
+        .updated {
+            color: #666;
+            font-size: 14px;
+        }
     </style>
 </head>
+
 <body>
     <h1>Privacy Policy</h1>
     <p class="updated">Last updated: December 2024</p>
 
     <h2>Overview</h2>
-    <p>7 Journal ("we", "our", or "the app") is designed with privacy as a core principle. Your journal entries are private and belong to you.</p>
+    <p>7 Journal ("we", "our", or "the app") is designed with privacy as a core principle. Your journal entries are
+        private and belong to you.</p>
 
     <h2>Data Collection</h2>
     <p><strong>What we collect:</strong></p>
@@ -33,7 +50,7 @@
         <li>App preferences and settings</li>
         <li>Anonymous usage analytics (crash reports, feature usage)</li>
     </ul>
-    
+
     <p><strong>What we do NOT collect:</strong></p>
     <ul>
         <li>Your name or contact information</li>
@@ -50,13 +67,29 @@
     </ul>
     <p>We do not have access to your journal content. Only you can read your entries.</p>
 
-    <h2>AI Processing</h2>
-    <p>When you use voice transcription or AI analysis features:</p>
+    <h2>⚠️ Important: AI Processing & OpenAI</h2>
+    <p><strong>Your journal content is sent to OpenAI for processing.</strong></p>
+    <p>When you use the app's AI features (voice transcription, mood analysis, insights), the following data is
+        transmitted to OpenAI's servers:</p>
     <ul>
-        <li>Audio is sent to OpenAI's Whisper API for transcription</li>
-        <li>Text may be sent to OpenAI's GPT API for analysis</li>
-        <li>OpenAI's data retention policies apply (see openai.com/privacy)</li>
-        <li>We do not store your audio or transcripts on our servers</li>
+        <li><strong>Voice recordings</strong> are sent to OpenAI's Whisper API and converted to text</li>
+        <li><strong>Your journal text</strong> is sent to OpenAI's GPT API for analysis (mood extraction, formatting,
+            insights)</li>
+        <li>This means <strong>OpenAI receives the full content of your journal entries</strong></li>
+    </ul>
+    <p><strong>What this means for your privacy:</strong></p>
+    <ul>
+        <li>OpenAI processes your data according to their <a href="https://openai.com/privacy" target="_blank">Privacy
+                Policy</a></li>
+        <li>As of December 2024, OpenAI states they do not use API data to train their models</li>
+        <li>We have no control over how OpenAI handles data once transmitted</li>
+        <li>We do not store your journal content on our own servers</li>
+    </ul>
+    <p><strong>If you're uncomfortable with this:</strong></p>
+    <ul>
+        <li>You can disable "Use Cloud Transcription" in Settings to use Apple's on-device transcription instead (less
+            accurate but fully private)</li>
+        <li>You can bring your own OpenAI API key (BYOK) if you prefer direct control</li>
     </ul>
 
     <h2>Optional Encryption</h2>
@@ -76,10 +109,12 @@
     </ul>
 
     <h2>Children's Privacy</h2>
-    <p>7 Journal is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+    <p>7 Journal is not directed at children under 13. We do not knowingly collect personal information from children.
+    </p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy in the app.</p>
+    <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy
+        in the app.</p>
 
     <h2>Contact</h2>
     <p>If you have questions about this privacy policy, please contact us at:</p>
@@ -87,4 +122,5 @@
 
     <p style="margin-top: 60px; color: #999; font-size: 14px;">© 2024 7 Journal. All rights reserved.</p>
 </body>
+
 </html>
